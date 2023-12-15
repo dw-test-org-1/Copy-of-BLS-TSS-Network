@@ -1,0 +1,11 @@
+cache/
+out/
+broadcast/
+.vscode
+.idea
+/test/PersonalTest.sol
+
+# coverage 
+lcov.info
+
+*.env
