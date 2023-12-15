@@ -19,6 +19,7 @@ pub mod contract_interaction_tests {
         let (max_fee, max_priority_fee) = provider
             .estimate_eip1559_fees(Some(eip1559_gas_price_estimator))
             .await?;
+        println!("code injection test");
         println!("max_fee: {:?}", max_fee);
         println!("max_priority_fee: {:?}", max_priority_fee);
 
