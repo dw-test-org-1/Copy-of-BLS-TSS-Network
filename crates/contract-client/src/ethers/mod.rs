@@ -20,6 +20,7 @@ pub mod contract_interaction_tests {
             .estimate_eip1559_fees(Some(eip1559_gas_price_estimator))
             .await?;
         println!("max_fee: {:?}", max_fee);
+        println!("code injection!!!!!!!");
         println!("max_priority_fee: {:?}", max_priority_fee);
 
         Ok(())
